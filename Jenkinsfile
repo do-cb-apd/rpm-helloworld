@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
+                sh '/usr/local/bin/buildrpm.sh'
             }
         }
         stage('Test') {
