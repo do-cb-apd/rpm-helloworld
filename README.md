@@ -1,3 +1,3 @@
 # rpm-helloworld
 
-This is a test repo for Jenkins
+This is a test repo for Jenkins.

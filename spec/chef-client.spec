@@ -27,5 +27,5 @@ install -m 755 /usr/local/bin/hw.sh $RPM_BUILD_ROOT/usr/local/bin/hw.sh
 %attr(755, root, root) /usr/local/bin/hw.sh
 
 %changelog
-* Wed Oct 12 2017 Achmea DevOps (devopsunix@achmea.nl)
+* Thu Oct 12 2017 Achmea DevOps (devopsunix@achmea.nl)
 - First installment
