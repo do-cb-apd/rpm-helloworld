@@ -21,6 +21,7 @@ BASEDIR=${PWD}
 ls ${SPECDIR}/*spec > /dev/null || { echo "No spec-file found in ${SPECDIR}!"; exit 1; }
 
 # Build the RPMBUILD tree
+rm -rf ~/rpmbuid/*
 rpmdev-setuptree || { echo "Something went wrong during setup of the buildtree... Aborting"; exit 1; }
 
 for SPECFILE in ${SPECDIR}/*spec
