@@ -1,7 +1,7 @@
 Summary: Hello World demo RPM
 Name: hello-world
 Version: 1.0.0
-Release: 1
+Release: 2
 Vendor: %{_vendor}
 Group: Demo/Demo
 License: GPL
@@ -28,5 +28,8 @@ cp -pr . $RPM_BUILD_ROOT/
 %attr(755, root, root) /usr/local/bin/hw.sh
 
 %changelog
+* Mon Oct 16 2017 Achmea DevOps (devopsunix@achmea.nl)
+- Minor update
+
 * Thu Oct 12 2017 Achmea DevOps (devopsunix@achmea.nl)
 - First installment
